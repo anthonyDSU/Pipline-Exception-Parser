@@ -1,0 +1,56 @@
+[
+    {
+        "_id": "abcdefghijklmnopqrstuvwxyz",
+        "isActive": true,
+        "enviroment": "prod",
+        "organization": "Applications",
+        "Polset-Name": "SecurityPolicies",
+        "workspace": "TBD",
+        "risk_approval": "http://localhost",
+        "poc_email": "user@localhost",
+        "description": "Exceptions details and other stuff",
+        "created": "2021-03-02",
+        "expires": "2021-06-02",
+        "exception_details": [
+            {
+                "policy": "restrict-eks-node-group-size",
+                "enforcement_level": "advisory"
+            },
+            {
+                "policy": "restrict-iam-policy-actions",
+                "enforcement_level": "advisory"
+            },
+            {
+                "policy": "restrict-egress-sg-rule-cidr-blocks",
+                "enforcement_level": "advisory"
+            }
+        ]
+    },
+    {
+        "_id": "abcdefghijklmnopqrstuvwxyz",
+        "isActive": false,
+        "enviroment": "prod",
+        "organization": "Applications",
+        "Polset-Name": "SecurityPolicies",
+        "workspace": "TBD",
+        "risk_approval": "http://localhost",
+        "poc_email": "user@localhost",
+        "description": "Exceptions details and other stuff",
+        "created": "2021-03-02",
+        "expires": "2021-06-02",
+        "exception_details": [
+            {
+                "policy": "restrict-db-instance-engines",
+                "enforcement_level": "advisory"
+            },
+            {
+                "policy": "restrict-assumed-roles-by-workspace",
+                "enforcement_level": "advisory"
+            },
+            {
+                "policy": "restrict-ami-owners",
+                "enforcement_level": "advisory"
+            }
+        ]
+    }
+]
